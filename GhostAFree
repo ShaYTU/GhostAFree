@@ -1,12 +1,1550 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.1.5b) ~  Much Love, Ferib 
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 
-]]--
+local w = library:CreateWindow("GhostAFree") -- Creates the window
 
-do local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=getfenv or function()return _ENV;end;local v9=setmetatable;local v10=pcall;local v11=select;local v12=unpack or table.unpack;local v13=tonumber;local function v14(v15,v16)local v17=1;local v18;v15=v4(v3(v15,5),"..",function(v29)if (v1(v29,2)==79) then v18=v0(v3(v29,1,1));return "";else local v64=v2(v0(v29,16));if v18 then local v73=v5(v64,v18);v18=nil;return v73;else return v64;end end end);local function v19(v30,v31,v32)if v32 then local v65=(v30/(2^(v31-(3 -2))))%((676 -(159 + (2471 -1956)))^(((v32-(1 + 0)) -(v31-(2 -1))) + 1 + 0));return v65-(v65%(1 + 0));else local v66=0 + 0;local v67;while true do if (v66==(0 -0)) then v67=(1 + 0 + 1)^(v31-(1 -0));return (((v30%(v67 + v67))>=v67) and 1) or (0 -0);end end end end local function v20()local v37=v1(v15,v17,v17);v17=v17 + 1;return v37;end local function v21()local v38,v39=v1(v15,v17,v17 + (4 -2));v17=v17 + (1791 -(486 + 1303));return (v39 * 256) + v38;end local function v22()local v40,v41,v42,v43=v1(v15,v17,v17 + (8 -5));v17=v17 + 3 + 1;return (v43 * (16778562 -(95 + 432 + (1510 -(605 + 86))))) + (v42 * (53819 + (25763 -14046))) + (v41 * (2082 -(186 + 1640))) + v40;end local function v23()local v44=(0 -0) -0;local v45;local v46;while true do if (v44==(1 -0)) then return (( -2 * v19(v46,(689 -(273 + 403)) + 19)) + (147 -(54 + 92))) * (((4 + 0) -2)^(v19(v46,(1853 -(1704 + 64)) -(108 -44),22 + 9) -((434 -(9 + 4)) + 602))) * ((((v19(v46,1,2 + 18) * (2^(1185 -((329 -(235 + 75)) + 1134)))) + v45)/((6 -4)^52)) + (1142 -(782 + 359)));end if ((0 + 0)==v44) then v45=v22();v46=v22();v44=1 + 0;end end end local function v24(v33)local v47;if  not v33 then v33=v22();if (v33==(869 -(212 + 657))) then return "";end end v47=v3(v15,v17,(v17 + v33) -(128 -(17 + (1551 -(206 + 1235)))));v17=v17 + v33;local v48={};for v62=287 -(218 + 68), #v47 do v48[v62]=v2(v1(v3(v47,v62,v62)));end return v6(v48);end local v25=v22;local function v26(...)return {...},v11("#",...);end local function v27()local v49=0;local v50;local v51;local v52;local v53;local v54;local v55;local v56;local v57;local v58;while true do if (v49~=(17 -13)) then else v58=nil;while true do if (v50~=1) then else local v88=0;while true do if (0~=v88) then else v53=nil;v54=nil;v88=3 -2;end if (v88==1) then v50=3 -1;break;end end end if (v50~=(973 -(610 + 359))) then else while true do if (v51==(1142 -(493 + 649))) then local v93=1472 -(185 + 1287);while true do if (v93==1) then v51=1;break;end if (v93==(0 -0)) then v52=0;v53=nil;v93=1 -0;end end end if (v51~=3) then else v58=nil;while true do local v97=0 + 0;local v98;while true do if (v97==(0 -0)) then v98=693 -(334 + 359);while true do if (v98==(115 -(69 + 46))) then local v100=0;while true do if (v100==(1 -0)) then v98=4 -3;break;end if (v100~=0) then else if (v52==(1 + 0)) then local v164=0;local v165;while true do if (v164~=0) then else v165=0 + 0;while true do if (v165~=(0 + 0)) then else local v191=288 -(213 + 75);while true do if (v191==(1704 -(1516 + 187))) then v165=1 + 0;break;end if ((887 -(561 + 326))~=v191) then else v56={v53,v54,nil,v55};v57=v22();v191=1 + 0;end end end if (v165==(1491 -(1077 + 413))) then v58={};v52=2 + 0;break;end end break;end end end if (v52==(1013 -(776 + 234))) then local v166=1307 -(328 + 979);local v167;while true do if (v166==(302 -(274 + 28))) then v167=0;while true do if (v167==1) then return v56;end if (v167==(0 -0)) then for v202=1781 -(771 + 1009),v22() do v54[v202-1]=v27();end for v204=1,v22() do v55[v204]=v22();end v167=1 -0;end end break;end end end v100=1;end end end if (v98==(1 -0)) then if ((891 -(815 + 74))~=v52) then else local v120=0;local v121;while true do if (v120==(884 -(555 + 329))) then v121=0 -0;while true do if (v121==0) then local v173=0;local v174;while true do if ((1669 -(1130 + 539))~=v173) then else v174=0 -0;while true do if (v174==(1 + 0)) then v121=1 + 0;break;end if (v174==0) then local v215=867 -(241 + 626);while true do if ((0 -0)==v215) then for v224=2 -1,v57 do local v225=0 -0;local v226;local v227;local v228;local v229;while true do if (v225==1) then v228=nil;v229=nil;v225=5 -3;end if (v225==0) then v226=0;v227=nil;v225=1;end if (v225==(1 + 1)) then while true do if (v226==0) then local v238=0;while true do if (v238==1) then v226=3 -2;break;end if (v238==(1858 -(721 + 1137))) then v227=0 + 0;v228=nil;v238=1;end end end if (v226~=1) then else v229=nil;while true do if (v227~=(1420 -(435 + 985))) then else local v243=0;local v244;while true do if ((0 + 0)~=v243) then else v244=0 -0;while true do if (v244~=0) then else local v250=0;while true do if ((0 + 0)==v250) then v228=v20();v229=nil;v250=1;end if (v250==(1 -0)) then v244=1;break;end end end if (v244==(2 -1)) then v227=1 -0;break;end end break;end end end if (v227==1) then if (v228==(1 + 0)) then v229=v20()~=0;elseif (v228==2) then v229=v23();elseif (v228~=(11 -8)) then else v229=v24();end v58[v224]=v229;break;end end break;end end break;end end end v56[3]=v20();v215=2 -1;end if (v215==1) then v174=1;break;end end end end break;end end end if (v121==1) then for v184=398 -(113 + 284),v22() do local v185=0;local v186;local v187;local v188;while true do if (v185==(1 + 0)) then v188=nil;while true do if (v186~=(0 -0)) then else v187=0;v188=nil;v186=1;end if (v186~=1) then else while true do if (v187==(0 + 0)) then v188=v20();if (v19(v188,1,1)~=(401 -(82 + 319))) then else local v231=0 + 0;local v232;local v233;local v234;local v235;while true do if (v231==(1 -0)) then local v237=0;while true do if (v237~=1) then else v231=1449 -(927 + 520);break;end if (v237~=(0 -0)) then else v234=nil;v235=nil;v237=539 -(340 + 198);end end end if (v231==0) then v232=0;v233=nil;v231=1;end if (v231~=(1 + 1)) then else while true do if (v232==2) then if (v19(v234,1,79 -(43 + 35))==1) then v235[7 -5]=v58[v235[2]];end if (v19(v234,5 -3,2)==1) then v235[3]=v58[v235[470 -(272 + 195)]];end v232=2 + 1;end if (3==v232) then if (v19(v234,2 + 1,3)==(1 -0)) then v235[4]=v58[v235[1322 -(1268 + 50)]];end v53[v184]=v235;break;end if (v232~=1) then else local v240=0;while true do if ((1 + 0)==v240) then v232=2;break;end if (v240==(0 + 0)) then local v249=0;while true do if (v249~=(1 + 0)) then else v240=444 -(368 + 75);break;end if ((0 -0)~=v249) then else v235={v21(),v21(),nil,nil};if (v233==(197 -(169 + 28))) then local v251=0;local v252;local v253;while true do if (v251~=(1 -0)) then else while true do if (v252~=0) then else v253=0 + 0;while true do if ((0 -0)==v253) then v235[8 -5]=v21();v235[4]=v21();break;end end break;end end break;end if (v251==(294 -(106 + 188))) then local v255=1731 -(267 + 1464);while true do if (1~=v255) then else v251=1;break;end if (v255~=(0 + 0)) then else v252=0;v253=nil;v255=1 + 0;end end end end elseif (v233==1) then v235[1138 -(545 + 590)]=v22();elseif (v233==2) then v235[1 + 2]=v22() -(2^(29 -13));elseif (v233==3) then local v257=0 -0;local v258;while true do if (v257==(0 -0)) then v258=0;while true do if (v258~=(0 + 0)) then else v235[3 + 0]=v22() -(2^(16 + 0));v235[9 -5]=v21();break;end end break;end end end v249=1 + 0;end end end end end if (v232==0) then local v241=0 -0;local v242;while true do if (v241==(1933 -(894 + 1039))) then v242=0;while true do if (v242==0) then v233=v19(v188,2,1304 -(1069 + 232));v234=v19(v188,4,6);v242=1;end if ((1 + 0)==v242) then v232=1;break;end end break;end end end end break;end end end break;end end break;end end break;end if (v185==(0 -0)) then v186=0;v187=nil;v185=1;end end end v52=3;break;end end break;end end end if (v52~=(1847 -(1769 + 78))) then else local v122=0;local v123;while true do if (v122~=0) then else v123=0;while true do if (v123==0) then v53={};v54={};v123=1 + 0;end if (v123==1) then v55={};v52=1 + 0;break;end end break;end end end break;end end break;end end end break;end if (v51~=2) then else local v94=0;local v95;while true do if (v94==(1183 -(525 + 658))) then v95=0;while true do if ((1 + 0)==v95) then v51=9 -6;break;end if ((0 + 0)==v95) then v56=nil;v57=nil;v95=1;end end break;end end end if (v51==1) then local v96=0 -0;while true do if ((1419 -(266 + 1152))==v96) then v51=2;break;end if (v96==(935 -(627 + 308))) then local v99=0 + 0;while true do if (v99==(605 -(480 + 125))) then v54=nil;v55=nil;v99=137 -(53 + 83);end if (v99==(1 -0)) then v96=1;break;end end end end end end break;end if ((0 -0)==v50) then v51=1616 -(201 + 1415);v52=nil;v50=1;end if (v50==(1 + 1)) then local v89=0;while true do if (v89==0) then v55=nil;v56=nil;v89=1;end if (v89~=(1 + 0)) then else v50=3 + 0;break;end end end if (v50==3) then local v90=0;while true do if (v90~=0) then else v57=nil;v58=nil;v90=1;end if (1==v90) then v50=1968 -(528 + 1436);break;end end end end break;end if (v49==2) then v54=nil;v55=nil;v49=2 + 1;end if (v49==(2 -1)) then v52=nil;v53=nil;v49=2;end if (v49~=(10 -7)) then else v56=nil;v57=nil;v49=3 + 1;end if (v49==0) then v50=191 -(93 + 98);v51=nil;v49=1;end end end local function v28(v34,v35,v36)local v59=v34[1];local v60=v34[2];local v61=v34[3];return function(...)local v68=1;local v69= -1;local v70={...};local v71=v11("#",...) -1;local function v72()local v74=v59;local v75=Const;local v76=v60;local v77=v61;local v78=v26;local v79={};local v80={};local v81={};for v86=0 -0,v71 do if ((v86>=v77) or (1448>(11800 -7184))) then v79[v86-v77]=v70[v86 + 1];else v81[v86]=v70[v86 + 1 + (0 -0)];end end local v82=(v71-v77) + (1230 -(974 + 255));local v83;local v84;while true do local v87=0 + 0;while true do if (((2322 -1535)>(889 -548)) and (v87==(1009 -(301 + (2115 -(1254 + 153)))))) then v83=v74[v68];v84=v83[(177 + 1654) -(1577 + 253)];v87=217 -(82 + 134);end if ((4151>=899) and (v87==1)) then if (((3178 -(368 + 169))<=(5806 -2411)) and (v84<=(27 -17))) then if (((17346 -12530)>=(893 -635)) and (v84<=(660 -(505 + 151)))) then if ((v84<=(3 -2)) or (822<=(457 -(76 + 106)))) then if (((3906 -(118 + 315))>=1542) and (v84==(0 + 0))) then v81[v83[(1860 -(279 + 110)) -(735 + 734)]]={};else local v102=0;local v103;local v104;while true do if ((v102==(1 + (0 -0))) or ((1692 + 474)<=(1122 + 355))) then while true do if (((2566 + 42)<(4060 -1127)) and (v103==0)) then v104=v83[2 + 0];v81[v104](v81[v104 + (1321 -(1086 + 234))]);break;end end break;end if ((v102==(1353 -(907 + 446))) or ((2997 -(6 + 13 + 24))<(13 + 2554))) then v103=0;v104=nil;v102=1;end end end elseif ((v84<=(287 -(73 + 212))) or ((4138 -2154)>=4315)) then local v105=368 -(309 + 59);local v106;local v107;while true do if (((66 + 921)==(2212 -(1070 + (257 -102)))) and (v105==(1 + 0))) then while true do if ((v106==(1264 -(1043 + 221))) or ((39 + 157)>=((48 -31) + 1289))) then v107=v83[1266 -(303 + 961)];v81[v107]=v81[v107](v12(v81,v107 + 1,v83[3]));break;end end break;end if ((v105==(0 -0)) or ((793 -481)==785)) then local v158=0 -0;while true do if (((788 + 3818)==(8855 -4249)) and (((9 -7) -1)==v158)) then v105=(168 + 318) -(441 + 44);break;end if ((v158==(1785 -(523 + 1262))) or ((3009 -(16 + 1251))>=(2713 -(78 + (82 -27))))) then v106=817 -(509 + 308);v107=nil;v158=1;end end end end elseif (((1460 -(66 + 538))<(20168 -15923)) and (v84==3)) then v81[v83[2]]=v28(v76[v83[8 -5]],nil,v36);else local v125=0 -0;local v126;local v127;local v128;local v129;local v130;while true do if (((1206 -837)<=(8475 -5188)) and ((1 + 0)==v125)) then v128=nil;v129=nil;v125=2 + 0;end if (((6578 -3980)>=(1989 -(16 + (171 -99)))) and (v125==(4 -2))) then v130=nil;while true do if (((850 + 33 + 3942)>1109) and (v126==((2218 -(737 + 548)) -(172 + 761)))) then local v175=0 + 0;while true do if ((4790>(4691 -1682)) and (v175==(819 -(407 + 411)))) then v126=686 -(551 + 134);break;end if (((4315 -(515 + 301))>(1167 -(166 + 45))) and (v175==(0 -(0 -0)))) then v127=0 -0;v128=nil;v175=1489 -(692 + 796);end end end if ((v126==1) or ((5659 -3420)==((7974 -3304) -(230 + 1611)))) then local v176=0;while true do if ((v176==(1 + 0)) or (3046<=(753 + 1926))) then v126=6 -4;break;end if (((753 -(477 + 33))==243) and (v176==(899 -(95 + 804)))) then v129=nil;v130=nil;v176=1 + 0;end end end if (((1626 -572)<=3913) and (v126==2)) then while true do if (((305 + 898)<=2287) and (v127==0)) then local v192=0;local v193;while true do if ((v192==0) or (2011>3254)) then v193=1091 -(299 + 792);while true do if ((v193==(513 -(425 + 88))) or ((2329 -1047)>=(10037 -5628))) then local v219=0;while true do if ((((283 + 3817) -(234 + 26 + 41))==(2798 + (1753 -752))) and (v219==(0 -0))) then v128=v83[1773 -(309 + 1462)];v129={v81[v128](v12(v81,v128 + 1,v69))};v219=2 -1;end if ((v219==(2 -1)) or (3127>(3834 + 587))) then v193=1885 -(163 + 1721);break;end end end if (((14523 -10502)>(3655 -(571 + 127))) and (v193==1)) then v127=1 + 0;break;end end break;end end end if ((1197==(562 + 635)) and (v127==(1 + 0))) then v130=0 -0;for v206=v128,v83[4] do local v207=0 + 0;local v208;local v209;while true do if (((2145 + 309)>=(4196 -(884 + 1084))) and (v207==1)) then while true do if ((v208==0) or ((5219 -3126)<1542)) then v209=(0 + 0) -(0 + 0);while true do if ((v209==(325 -(135 + 190))) or ((1762 -(4 + 36))>=(5120 -(515 + 255)))) then v130=v130 + 1;v81[v206]=v129[v130];break;end end break;end end break;end if ((v207==(0 -0)) or ((6017 -3156)<=(2199 -(42 + 125)))) then v208=0 + 0;v209=nil;v207=1 + 0;end end end break;end end break;end end break;end if ((((11784 + 4182) -12714)==3252) and ((0 + 0)==v125)) then v126=0;v127=nil;v125=3 -2;end end end elseif ((v84<=7) or (((1685 + 1029) -1434)>(7075 -3913))) then if ((v84<=(5 + 0)) or (4158<1491)) then v81[v83[601 -(380 + 219)]]=v36[v83[10 -7]];elseif (((7580 -3493)>3826) and (v84>(12 -6))) then local v131=0;local v132;local v133;while true do if (((4737 -(369 + 823))>=(8286 -5669)) and (v131==(0 -0))) then local v168=0 -(0 + 0);while true do if (((689 + 1789)==((22406 -13774) -(16318 -10164))) and (v168==(0 -0))) then v132=227 -(58 + 169);v133=nil;v168=1;end if ((v168==(1 + 0)) or ((1370 + 538)<=(1038 + 570))) then v131=1 -0;break;end end end if (((2014 + 448)==((1782 + 1218) -(175 + 363))) and ((1 + 0)==v131)) then while true do if ((4658>=(3190 + 286)) and (v132==0)) then v133=v83[2 -0];v81[v133]=v81[v133]();break;end end break;end end else local v134=0 + 0;local v135;local v136;local v137;while true do if ((((7406 -(28 + 288)) -3969)>=2592) and ((1 -0)==v134)) then v137=nil;while true do if (((731 + 3245)==(3511 + 465)) and (v135==(0 + 0))) then v136=0 + 0;v137=nil;v135=1 + 0;end if ((v135==(1899 -(947 + 951))) or ((4352 -(43 + 372))<=(2538 -(1271 + 687)))) then while true do if (((631 + 748)<(4388 -(102 + 246))) and (v136==((2802 -(632 + 341)) -(1337 + 113 + 379)))) then v137=v83[148 -(144 + 2)];v81[v137]=v81[v137](v12(v81,v137 + (2 -1),v69));break;end end break;end end break;end if (((2663 -((177 -(44 + 68)) + 692))<=((19467 -7049) -8616)) and (v134==(0 + 0))) then v135=1472 -(584 + 3 + 885);v136=nil;v134=494 -(411 + 82);end end end elseif ((v84<=8) or ((5506 -3872)<=410)) then v68=v83[3];elseif (((4566 -2017)>1077) and (v84>(12 -3))) then local v138=0 + 0;local v139;local v140;local v141;local v142;local v143;local v144;while true do if ((((14756 -9370) -2171)>1063) and (v138==((9 -5) -2))) then v143=nil;v144=nil;v138=3;end if ((v138==1) or ((1910 -(47 + 804))>=(6275 -2812))) then v141=nil;v142=nil;v138=1 + 1;end if (((8241 -5388)<=(5712 -(604 + 751))) and (v138==(1801 -(133 + 1668)))) then v139=0;v140=nil;v138=784 -((2043 -(539 + 1358)) + 637);end if (((3225 -((1511 -931) + 1415))<(3192 -(412 + 787))) and ((8 -5)==v138)) then while true do if ((767<(5516 -(1029 + 907))) and (v139==2)) then v144=nil;while true do if (((1220 -366)>=524) and (v140==(1704 -(1118 + 586)))) then local v195=0 -0;while true do if ((v195==(1 + 0)) or ((4230 -(11 + 17 + 39))==(7368 -4040))) then v140=1 + 0;break;end if ((v195==(0 -0)) or ((1893 + 58)==(870 + 1666))) then local v216=0 + 0;while true do if ((3421>(589 -333)) and (((238 -(164 + 74)) + 0 + 0)==v216)) then v141=v83[121 -(57 + 62)];v142,v143=v78(v81[v141](v12(v81,v141 + (1455 -(337 + 1117)),v83[2 + 1])));v216=(362 -(210 + 151)) -0;end if ((v216==(1 + 0)) or ((1683 + (1619 -(237 + 448)))>(2656 + 714))) then v195=909 -(715 + (820 -(257 + 370)));break;end end end end end if ((v140==(5 -3)) or ((2239 -(662 + 10))>=(3286 -(553 + 990)))) then for v210=v141,v69 do local v211=0 + 0;while true do if ((4892>=(1916 -(268 + 616))) and (v211==0)) then v144=v144 + 1 + 0;v81[v210]=v142[v144];break;end end end break;end if ((v140==(1 -0)) or (1680>((1989 -(1272 + 308)) + 4098))) then local v196=0;local v197;while true do if ((v196==0) or ((2657 + 2102)<=(8327 -(4350 -(164 + 15))))) then v197=0 + 0;while true do if (((8332 -5385)>=(9916 -7853)) and (v197==(0 + 0))) then local v220=(0 -0) + 0;while true do if ((2170>=(1455 -(648 + 17))) and (v220==0)) then v69=(v143 + v141) -(1 + 0 + 0);v144=0;v220=1 -0;end if (((339 + 1725)<(1866 + 863)) and ((203 -(76 + 126))==v220)) then v197=1535 -(25 + 1509);break;end end end if ((v197==(845 -(762 + 82))) or ((5262 -(467 + 259))<=(2855 -((2178 -(832 + 52)) + 408)))) then v140=(5 -3) + 0;break;end end break;end end end end break;end if (((53 -24)<(1702 -435)) and (v139==1)) then local v178=1835 -(271 + 1564);while true do if ((v178==((0 + 0) -0)) or ((763 -336)==(5189 -(1550 + 387)))) then v142=nil;v143=nil;v178=1845 -(1436 + 408);end if ((v178==(2 -1)) or ((10034 -5511)<=((14664 -3689) -6535))) then v139=3 -1;break;end end end if (((469 + (3331 -(222 + 1479)))==(3431 -(915 + 417))) and (v139==(1617 -(64 + (4350 -2797))))) then v140=333 -(34 + 299);v141=nil;v139=2 -1;end end break;end end else v81[v83[1654 -((1100 -(250 + 249)) + 1051)]]=v81[v83[3]][v83[(7 -3) + (0 -0)]];end elseif ((v84<=(432 -((894 -(494 + 33)) + 49))) or (1348>=(1969 + (4416 -(196 + 1407))))) then if ((v84<=((1198 + 506) -(562 + 1129))) or ((673 + 3521)<=(836 -158))) then if ((v84<=(400 -(360 + (911 -(508 + 374))))) or ((3128 -(707 + 962))>(12130 -8868))) then local v109=1983 -(228 + 1755);local v110;local v111;local v112;local v113;local v114;local v115;while true do if ((v109==0) or ((2520 -(787 + 42))<(643 -(298 + 283)))) then v110=0 -(802 -(447 + 355));v111=nil;v109=1 + 0;end if ((143==(136 + (1226 -(867 + 352)))) and (v109==3)) then while true do if (((1865 -(539 + 680))<(9117 -6311)) and (v110==3)) then if (v115 or ((1712 + 2240)==(449 -(50 + 174)))) then local v179=(0 -0) + 0;local v180;local v181;while true do if ((v179==((1529 + 58) -(286 + 897 + 404))) or ((1740 + 208)==1394)) then v180=0 -0;v181=nil;v179=1;end if ((v179==(2 -1)) or ((2390 + 284)<=945)) then while true do if ((v180==0) or (((2976 -(84 + 185)) -(7 + 65))>=3394)) then v181=0 -(1617 -(239 + 1378));while true do if ((v181==(0 + 0)) or (2522==2157)) then v81[v113]=v115;v68=v83[(20 -7) -10];break;end end break;end end break;end end else v68=v68 + (1126 -(51 + 1074));end break;end if (((184 + 1474)<(5720 -(789 + 207))) and (v110==(1 -0))) then local v170=0 + 0;while true do if ((v170==(1 + 0)) or (3875<(776 -(59 + 422)))) then v110=(2800 -1334) -((1672 -(1314 + 85)) + 1191);break;end if (((2676 -(689 + 1115))<=4212) and (v170==(1520 -(582 + 938)))) then v113=v111 + 2 + 0 + 0;v114={v81[v111](v81[v111 + 1],v81[v113])};v170=1;end end end if ((v110==((0 -0) + (0 -0))) or (4022<(4292 -1961))) then local v171=0 + 0;while true do if (((0 -(0 -0))==v171) or ((1141 + 11 + 796)<=(1675 -1005))) then v111=v83[2];v112=v83[(514 -350) -(86 + 74)];v171=1499 -(468 + 1030);end if ((v171==(1692 -(658 + 297 + 736))) or (((3234 -1137) -((2198 -916) + 515))>(3417 -886))) then v110=4 -3;break;end end end if (((1105 -(1015 + 88))==v110) or ((2445 -1604)>3197)) then local v172=0 + 0;while true do if ((((3681 -1167) -(357 + 238))<(8154 -4600)) and (v172==(782 -(65 + 87 + 630)))) then for v189=1251 -(1095 + 155),v112 do v81[v113 + v189]=v114[v189];end v115=v114[287 -(160 + 126)];v172=(2 + 0) -1;end if (((1930 -(713 + (2723 -(278 + 1231))))<=1930) and ((1860 -(730 + 1129))==v172)) then v110=379 -(373 + 3);break;end end end end break;end if ((v109==(1 + 0)) or ((438 + 1101)==(5195 -((2359 -1266) + 95)))) then v112=nil;v113=nil;v109=8 -6;end if (((4757 -(224 + 203))>=3868) and (v109==(5 -3))) then v114=nil;v115=nil;v109=5 -2;end end elseif (((290 + 63)<=(14473 -10763)) and (v84>(8 + 4))) then v81[v83[1 + 1]]=v83[2 + 1];elseif (((14052 -10286)>(699 + 755 + 2041)) and (v81[v83[(752 -534) -((784 -(608 + 40)) + 80)]]==v83[1444 -(619 + 821)])) then v68=v68 + (1 -0);else v68=v83[3];end elseif ((4442>631) and (v84<=14)) then do return;end elseif ((v84>(3 + 12)) or ((9681 -6319)<=(712 + 320 + 653))) then for v159=v83[(3 -2) + 1],v83[958 -(303 + 652)] do v81[v159]=nil;end else local v147=0 -0;local v148;local v149;local v150;local v151;local v152;local v153;while true do if (((4380 -2963)==(3386 -(282 + 1687))) and (0==v147)) then v148=670 -(27 + 643);v149=nil;v147=1 + 0;end if (((8010 -4295)==3715) and (v147==(4 -2))) then v152=nil;v153=nil;v147=3;end if ((2219>=(3161 -(129 + 262 + 599))) and (v147==(927 -(67 + 859)))) then v150=nil;v151=nil;v147=7 -5;end if ((v147==(1676 -(210 + 1463))) or ((5342 -(974 + (1937 -1166)))<(1405 + (3536 -(246 + 1144))))) then while true do if ((v148==(0 -0)) or ((4719 -3356)==(11938 -9406))) then local v182=0;while true do if (((1110 -(9 + 1101))==v182) or (((2655 -1537) + 7)<(771 -192))) then v149=995 -(474 + 521);v150=nil;v182=1 + (1093 -(327 + 766));end if (((3496 -1134)>((53 + 1648) -1065)) and ((1 + 0)==v182)) then v148=1;break;end end end if ((v148==2) or (2581>2966)) then v153=nil;while true do if ((v149==(1552 -(1053 + 498))) or ((1168 + (4127 -(1729 + 199)))==(7200 -5434))) then local v198=0;local v199;while true do if (((487 + 2880)>(1915 + 575)) and (v198==(661 -(501 + 160)))) then v199=0;while true do if (((3369 -2195)<(3494 -(23 + 37))) and (v199==(0 + 0))) then local v222=(0 -0) + 0;while true do if ((v222==(2 -1)) or ((3768 -(679 + 1070))==(1970 -1486))) then v199=4 -3;break;end if ((v222==(70 -(19 + 51))) or ((7332 -2926)<(1854 -(125 + 1513)))) then v69=(v152 + v150) -1;v153=(0 -0) + 0;v222=1;end end end if (((2 -1)==v199) or ((2915 -(584 + 586))>=3399)) then v149=1382 -((1315 -(1106 + 109)) + 1280);break;end end break;end end end if (((5346 -3037)>(1121 + 825)) and ((0 + 0)==v149)) then local v200=1813 -(514 + 776 + 523);local v201;while true do if ((v200==(0 + 0)) or (1904<(1030 -(272 + (2138 -(1404 + 386)))))) then v201=950 -(281 + 669);while true do if (((1063 + 3674)>(1200 + 1256)) and (v201==(618 -(83 + 535)))) then local v223=(822 -(273 + 549)) -0;while true do if (((7197 -4798)==(572 + 1827)) and (v223==(3 -2))) then v201=286 -(22 + 263);break;end if ((2011<=(8778 -5813)) and (v223==(1666 -(242 + 1424)))) then v150=v83[2 + 0];v151,v152=v78(v81[v150](v81[v150 + (1 -0)]));v223=2 -1;end end end if (((2 -1)==v201) or (630>(10358 -6146))) then v149=798 -(353 + 444);break;end end break;end end end if ((((2352 -(64 + 14)) -(707 + 750))<((1660 -(748 + 196)) + 1019)) and ((2 + 0)==v149)) then for v212=v150,v69 do local v213=0 + 0;local v214;while true do if (((219 + 265)<(21639 -16901)) and (v213==(0 -0))) then v214=1918 -(887 + 1031);while true do if (((2952 -(1053 + 665))<2349) and (v214==((0 -0) -0))) then v153=v153 + 1 + 0;v81[v212]=v151[v153];break;end end break;end end end break;end end break;end if ((v148==1) or ((1777 + 1569)<=2088)) then local v183=0 -(0 -0);while true do if ((1897>(323 + 1062)) and (v183==(1 + 0))) then v148=3 -1;break;end if ((493<4247) and (v183==(0 -0))) then v151=nil;v152=nil;v183=1 + (1654 -(242 + 1412));end end end end break;end end end elseif (((4414 -(514 + 1216))>=(133 + 540)) and (v84<=((1825 -(1122 + 701)) + 17))) then if (((7489 -(9346 -5552))<=(1845 + 3080)) and (v84<=(806 -(632 + 157)))) then v81[v83[2 + 0]]=v81[v83[3]];elseif (((1009 + 274)<=1774) and (v84==(16 + 2))) then v81[v83[2]][v83[7 -(1 + 3)]]=v81[v83[826 -(645 + (410 -(116 + 117)))]];else local v155=0 + 0;local v156;while true do if ((v155==0) or ((3259 -1368)<(1478 -(400 + 626)))) then v156=v83[5 -3];v81[v156](v12(v81,v156 + (3 -2),v83[(2 -1) + 2]));break;end end end elseif ((v84<=20) or ((3156 -(1240 + 301 + 17))<=(1278 -(340 + (1789 -(448 + 414)))))) then local v117=258 -(56 + 202);local v118;local v119;while true do if (((1353 -((2010 -(712 + 428)) + 482))==v117) or ((293 + 410)>(289 + 1133))) then v81[v118 + (840 -(463 + 376))]=v119;v81[v118]=v119[v83[4]];break;end if (((1530 + 1450)>(125 + 1)) and (v117==0)) then local v163=0 + 0;while true do if (((8449 -4515)>(1757 + (2020 -(933 + 131)))) and (v163==(1518 -(838 + 680)))) then v118=v83[1357 -(313 + 1042)];v119=v81[v83[3 + 0]];v163=(3024 -1939) -(507 + 577);end if ((v163==(1 + 0)) or ((4422 -1946)>(8774 -6249))) then v117=(3 + 1) -3;break;end end end end elseif ((v84>21) or ((460 + 145)>=(2290 -(85 + (1021 -724))))) then if ((4977>=548) and (v83[1 + 1]==v81[v83[1070 -(104 + 962)]])) then v68=v68 + (1442 -((1546 -487) + 382));else v68=v83[3 + 0];end else v81[v83[6 -4]][v83[7 -4]]=v83[10 -6];end v68=v68 + 1;break;end end end end A,B=v26(v10(v72));if  not A[1] then local v85=v34[4][v68] or "?";error("Script error at ["   .. v85   .. "]:"   .. A[2]);else return v12(A,2,B);end end;end return v28(v27(),{},v16)();end v14("LOL!273O00028O00026O00F03F027O0040030C3O00437265617465466F6C646572030D3O0046722O65205570677261646573030A3O006C6F6164737472696E6703043O0067616D6503073O00482O7470476574034D3O00682O7470733A2O2F7261772E67697468756275736572636F6E74656E742E636F6D2F626C2O6F6462612O6C2F2D6261636B2D7570732D666F722D6C6962732F6D61696E2F77612O6C2532307633030C3O0043726561746557696E646F77030A3O0047686F73744146722O65026O00104003063O0042752O746F6E03073O004A65747061636B026O00144003093O00506172616368757465030A3O004F766572636861726765026O000840030E3O0050686F746F6E20426C6173746572030E3O00426F61726420556E6C6F636B6572030A3O0047756D20486F746B657903093O004D61676E657469736D030C3O00547572626F63686172676572030B3O0048656176792041726D6F7203143O005061727469636C6520412O63656C657261746F7203073O005574696C69747903053O004C6162656C03083O00557067726164657303083O005465787453697A65026O00394003093O0054657874436F6C6F7203063O00436F6C6F723303073O0066726F6D524742025O00E06F4003073O004267436F6C6F72025O00804640030C3O00412O6C205570677261646573030C3O005072696E742047686F737473030C3O00506C61636520486F6C64657200A73O00120D3O00014O0010000100053O000E160002000600013O0004083O000600012O0010000300043O00120D3O00033O00260C3O00A0000100030004083O00A000012O0010000500053O00260C00010024000100010004083O0024000100120D000600013O00260C00060014000100020004083O0014000100201400070003000400120D000900054O00020007000900022O0011000400073O00120D000100023O0004083O0024000100260C0006000C000100010004083O000C0001001205000700063O001205000800073O00201400080008000800120D000A00094O000A0008000A4O000600073O00022O00070007000100022O0011000200073O00201400070002000A00120D0009000B4O00020007000900022O0011000300073O00120D000600023O0004083O000C0001000E16000C003B000100010004083O003B000100120D000600013O00260C0006002F000100020004083O002F000100201400070004000D00120D0009000E3O000203000A6O00130007000A000100120D0001000F3O0004083O003B000100260C00060027000100010004083O0027000100201400070004000D00120D000900103O000203000A00014O00130007000A000100201400070004000D00120D000900113O000203000A00024O00130007000A000100120D000600023O0004083O0027000100260C00010052000100120004083O0052000100120D000600013O00260C00060046000100020004083O0046000100201400070004000D00120D000900133O000203000A00034O00130007000A000100120D0001000C3O0004083O00520001000E160001003E000100060004083O003E000100201400070004000D00120D000900143O000203000A00044O00130007000A000100201400070004000D00120D000900153O000203000A00054O00130007000A000100120D000600023O0004083O003E000100260C00010069000100030004083O0069000100120D000600013O00260C0006005D000100020004083O005D000100201400070004000D00120D000900163O000203000A00064O00130007000A000100120D000100123O0004083O00690001000E1600010055000100060004083O0055000100201400070004000D00120D000900173O000203000A00074O00130007000A000100201400070004000D00120D000900183O000203000A00084O00130007000A000100120D000600023O0004083O0055000100260C0001008F000100020004083O008F000100120D000600013O000E1600020074000100060004083O0074000100201400070004000D00120D000900193O000203000A00094O00130007000A000100120D000100033O0004083O008F000100260C0006006C000100010004083O006C000100201400070003000400120D0009001A4O00020007000900022O0011000500073O00201400070004001B00120D0009001C6O000A3O0003003015000A001D001E001205000B00203O002009000B000B002100120D000C00223O00120D000D00223O00120D000E00224O0002000B000E0002001012000A001F000B001205000B00203O002009000B000B002100120D000C00243O00120D000D00243O00120D000E00244O0002000B000E0002001012000A0023000B2O00130007000A000100120D000600023O0004083O006C000100260C000100090001000F0004083O0009000100201400060004000D00120D000800253O0002030009000A4O001300060009000100201400060005000D00120D000800263O0002030009000B4O001300060009000100201400060005000D00120D000800273O0002030009000C4O00130006000900010004083O00A600010004083O000900010004083O00A6000100260C3O0002000100010004083O0002000100120D000100014O0010000200023O00120D3O00023O0004083O000200012O000E3O00013O000D3O00073O0003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203053O005374617473030F3O004A65747061636B556E6C6F636B656403053O0056616C75652O0100073O0012053O00013O0020095O00020020095O00030020095O00040020095O00050030153O000600072O000E3O00017O00073O00253O00253O00253O00253O00253O00253O00263O00073O0003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203053O00537461747303113O00506172616368757465556E6C6F636B656403053O0056616C75652O0100073O0012053O00013O0020095O00020020095O00030020095O00040020095O00050030153O000600072O000E3O00017O00073O002C3O002C3O002C3O002C3O002C3O002C3O002D3O00073O0003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203053O00537461747303123O004F766572636861726765556E6C6F636B656403053O0056616C75652O0100073O0012053O00013O0020095O00020020095O00030020095O00040020095O00050030153O000600072O000E3O00017O00073O002F3O002F3O002F3O002F3O002F3O002F3O00303O00073O0003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203053O00537461747303143O005661632O756D466972696E67556E6C6F636B656403053O0056616C75652O0100073O0012053O00013O0020095O00020020095O00030020095O00040020095O00050030153O000600072O000E3O00017O00073O003A3O003A3O003A3O003A3O003A3O003A3O003B3O00073O0003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203053O005374617473030E3O00426F61726473556E6C6F636B656403053O0056616C75652O0100073O0012053O00013O0020095O00020020095O00030020095O00040020095O00050030153O000600072O000E3O00017O00073O00413O00413O00413O00413O00413O00413O00423O00073O0003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203053O005374617473030E3O00486F746B6579556E6C6F636B656403053O0056616C75652O0100073O0012053O00013O0020095O00020020095O00030020095O00040020095O00050030153O000600072O000E3O00017O00073O00443O00443O00443O00443O00443O00443O00453O00073O0003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203053O00537461747303113O004D61676E657469736D556E6C6F636B656403053O0056616C75652O0100073O0012053O00013O0020095O00020020095O00030020095O00040020095O00050030153O000600072O000E3O00017O00073O004F3O004F3O004F3O004F3O004F3O004F3O00503O00073O0003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203053O00537461747303143O00547572626F63686172676572556E6C6F636B656403053O0056616C75652O0100073O0012053O00013O0020095O00020020095O00030020095O00040020095O00050030153O000600072O000E3O00017O00073O00563O00563O00563O00563O00563O00563O00573O00073O0003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203053O00537461747303123O00486561767941726D6F72556E6C6F636B656403053O0056616C75652O0100073O0012053O00013O0020095O00020020095O00030020095O00040020095O00050030153O000600072O000E3O00017O00073O00593O00593O00593O00593O00593O00593O005A3O00073O0003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203053O00537461747303133O00412O63656C657261746F72556E6C6F636B656403053O0056616C75652O0100073O0012053O00013O0020095O00020020095O00030020095O00040020095O00050030153O000600072O000E3O00017O00073O00643O00643O00643O00643O00643O00643O00653O00153O00028O00026O00F03F027O004003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203053O00537461747303123O00486561767941726D6F72556E6C6F636B656403053O0056616C75652O0103113O004D61676E657469736D556E6C6F636B656403133O00412O63656C657261746F72556E6C6F636B656403143O00547572626F63686172676572556E6C6F636B6564026O00084003143O005661632O756D466972696E67556E6C6F636B656403113O00506172616368757465556E6C6F636B6564026O001040030E3O00426F61726473556E6C6F636B6564030E3O00486F746B6579556E6C6F636B656403123O004F766572636861726765556E6C6F636B6564030F3O004A65747061636B556E6C6F636B656400743O00120D3O00014O0010000100013O000E160001000200013O0004083O0002000100120D000100013O00260C0001001C000100020004083O001C000100120D000200013O00260C0002000C000100020004083O000C000100120D000100033O0004083O001C0001000E1600010008000100020004083O00080001001205000300043O00200900030003000500200900030003000600200900030003000700200900030003000800301500030009000A001205000300043O00200900030003000500200900030003000600200900030003000700200900030003000B00301500030009000A00120D000200023O0004083O0008000100260C00010033000100010004083O0033000100120D000200013O000E1600020023000100020004083O0023000100120D000100023O0004083O0033000100260C0002001F000100010004083O001F0001001205000300043O00200900030003000500200900030003000600200900030003000700200900030003000C00301500030009000A001205000300043O00200900030003000500200900030003000600200900030003000700200900030003000D00301500030009000A00120D000200023O0004083O001F0001000E16000E004A000100010004083O004A000100120D000200013O000E1600010045000100020004083O00450001001205000300043O00200900030003000500200900030003000600200900030003000700200900030003000F00301500030009000A001205000300043O00200900030003000500200900030003000600200900030003000700200900030003001000301500030009000A00120D000200023O00260C00020036000100020004083O0036000100120D000100113O0004083O004A00010004083O0036000100260C00010061000100030004083O0061000100120D000200013O00260C0002005C000100010004083O005C0001001205000300043O00200900030003000500200900030003000600200900030003000700200900030003001200301500030009000A001205000300043O00200900030003000500200900030003000600200900030003000700200900030003001300301500030009000A00120D000200023O00260C0002004D000100020004083O004D000100120D0001000E3O0004083O006100010004083O004D000100260C00010005000100110004083O00050001001205000200043O00200900020002000500200900020002000600200900020002000700200900020002001400301500020009000A001205000200043O00200900020002000500200900020002000600200900020002000700200900020002001500301500020009000A0004083O007300010004083O000500010004083O007300010004083O000200012O000E3O00017O00743O00723O00733O00753O00753O00763O00783O00783O00793O007B3O007B3O007C3O007D3O007F3O007F3O00803O00803O00803O00803O00803O00803O00813O00813O00813O00813O00813O00813O00823O00833O00863O00863O00873O00893O00893O008A3O008B3O008D3O008D3O008E3O008E3O008E3O008E3O008E3O008E3O008F3O008F3O008F3O008F3O008F3O008F3O00903O00913O00943O00943O00953O00973O00973O00983O00983O00983O00983O00983O00983O00993O00993O00993O00993O00993O00993O009A3O009C3O009C3O009D3O009E3O009F3O00A23O00A23O00A33O00A53O00A53O00A63O00A63O00A63O00A63O00A63O00A63O00A73O00A73O00A73O00A73O00A73O00A73O00A83O00AA3O00AA3O00AB3O00AC3O00AD3O00B03O00B03O00B13O00B13O00B13O00B13O00B13O00B13O00B23O00B23O00B23O00B23O00B23O00B23O00B33O00B43O00B63O00B73O00B93O00073O0003053O00706169727303043O0067616D6503093O00576F726B737061636503063O0047686F737473030B3O004765744368696C6472656E03053O007072696E7403043O004E616D65000E3O0012053O00013O001205000100023O0020090001000100030020090001000100040020140001000100052O000F000100024O00045O00020004083O000B0001001205000500063O0020090006000400072O000100050002000100060B3O0008000100020004083O000800012O000E3O00017O000E3O00BB3O00BB3O00BB3O00BB3O00BB3O00BB3O00BB3O00BB3O00BC3O00BC3O00BC3O00BB3O00BC3O00BE8O00014O000E3O00017O00013O00C03O00A73O00023O00033O00093O00093O000A3O000C3O000E3O000E3O000F3O00113O00113O00123O00143O00143O00153O00153O00153O00153O00163O00173O00193O00193O001A3O001A3O001A3O001A3O001A3O001A3O001A3O001A3O001B3O001B3O001B3O001B3O001C3O001D3O00203O00203O00213O00233O00233O00243O00243O00263O00243O00273O00283O002A3O002A3O002B3O002B3O002D3O002B3O002E3O002E3O00303O002E3O00313O00323O00353O00353O00363O00383O00383O00393O00393O003B3O00393O003C3O003D3O003F3O003F3O00403O00403O00423O00403O00433O00433O00453O00433O00463O00473O004A3O004A3O004B3O004D3O004D3O004E3O004E3O00503O004E3O00513O00523O00543O00543O00553O00553O00573O00553O00583O00583O005A3O00583O005B3O005C3O005F3O005F3O00603O00623O00623O00633O00633O00653O00633O00663O00673O00693O00693O006A3O006A3O006A3O006A3O006B3O006B3O006B3O006B3O006B3O006B3O006B3O006B3O006B3O006B3O006B3O006B3O006B3O006B3O006B3O006B3O006B3O006B3O006B3O006C3O006D3O00703O00703O00713O00713O00B93O00713O00BA3O00BA3O00BE3O00BA3O00BF3O00BF3O00C03O00BF3O00C13O00C23O00C43O00C63O00C63O00C73O00C83O00C93O00CA3O00CC3O00",v8());end
+local b = w:CreateFolder("Free Upgrades") -- Creates the folder(U will put here your buttons,etc)
+
+local c = w:CreateFolder("Utility") -- Creates the folder(U will put here your buttons,etc)
+
+local d = w:CreateFolder("Credits") -- Creates the folder(U will put here your buttons,etc)
+
+
+b:Button("Particle Accelerator",function()
+    game.Players.LocalPlayer.Stats.AcceleratorUnlocked.Value = true
+end)
+
+b:Button("Turbocharger",function()
+    game.Players.LocalPlayer.Stats.TurbochargerUnlocked.Value = true
+end)
+
+b:Button("Heavy Armor",function()
+    game.Players.LocalPlayer.Stats.HeavyArmorUnlocked.Value = true
+end)
+
+b:Button("Magnetism",function()
+    game.Players.LocalPlayer.Stats.MagnetismUnlocked.Value = true
+end)
+
+b:Button("Board Unlocker",function()
+    game.Players.LocalPlayer.Stats.BoardsUnlocked.Value = true
+end)
+
+b:Button("Gum Hotkey",function()
+    game.Players.LocalPlayer.Stats.HotkeyUnlocked.Value = true
+end)
+
+b:Button("Photon Blaster",function()
+    game.Players.LocalPlayer.Stats.VacuumFiringUnlocked.Value = true
+end)
+
+b:Button("Parachute",function()
+    game.Players.LocalPlayer.Stats.ParachuteUnlocked.Value = true
+end)
+
+b:Button("Overcharge",function()
+    game.Players.LocalPlayer.Stats.OverchargeUnlocked.Value = true
+end)
+
+b:Button("Jetpack",function()
+    game.Players.LocalPlayer.Stats.JetpackUnlocked.Value = true
+end)
+
+b:Button("All Upgrades",function()
+    game.Players.LocalPlayer.Stats.AcceleratorUnlocked.Value = true
+game.Players.LocalPlayer.Stats.TurbochargerUnlocked.Value = true
+game.Players.LocalPlayer.Stats.HeavyArmorUnlocked.Value = true
+game.Players.LocalPlayer.Stats.MagnetismUnlocked.Value = true
+game.Players.LocalPlayer.Stats.BoardsUnlocked.Value = true
+game.Players.LocalPlayer.Stats.HotkeyUnlocked.Value = true
+game.Players.LocalPlayer.Stats.VacuumFiringUnlocked.Value = true
+game.Players.LocalPlayer.Stats.ParachuteUnlocked.Value = true
+game.Players.LocalPlayer.Stats.OverchargeUnlocked.Value = true
+game.Players.LocalPlayer.Stats.JetpackUnlocked.Value = true
+
+end)
+
+c:Button("Print Ghosts",function()
+    for i, v in pairs(game.Workspace.Ghosts:GetChildren()) do
+
+            print(v.Name)
+
+        end
+end)
+
+c:Button("Fallen Angel Hub",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ShavibeYTU/GhostAFree/main/Fallen%20Angel%20Hub')))()
+
+end)
+
+c:Bind("Main Hub Quick Sell",Enum.KeyCode.C,function() --Default bind
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(211, -148, -1710)
+end)
+
+c:Bind("Ghost World Quick Sell",Enum.KeyCode.V,function() --Default bind
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(123, -862, 6040)
+end)
+
+c:Bind("Backdoors Quick Sell",Enum.KeyCode.Z,function() --Default bind
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(99.1463547, 278.861572, -744.693115, -0.945054948, 1.84763416e-09, -0.326911479, 3.85483538e-08, 1, -1.05786064e-07, 0.326911479, -1.12575549e-07, -0.945054948)
+end)
+
+c:DestroyGui()
+
+d:Label("Sha ",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(235,5,5); -- Self Explaining
+    BgColor = Color3.fromRGB(45,45,45); -- Self Explaining
+    
+}) 
+d:Label("Fallen Angel Hub ",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(100,0,100); -- Self Explaining
+    BgColor = Color3.fromRGB(45,45,45); -- Self Explaining
+    
+}) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c:Button("Grinder GUI",function()
+
+--Public
+
+repeat task.wait() until game:IsLoaded()
+
+
+
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GSstarGamer/GUI/main/Mercury-edit.lua"))()
+
+
+
+
+
+
+
+local GUI = Library:Create{
+
+    Name = "Fallen Angel Hub",
+
+    Size = UDim2.fromOffset(600, 500),
+
+    Theme = Library.Themes.Legacy,
+
+    Link = "https://discord.gg/D4fKNGYcMN"
+
+}
+
+
+
+GUI:Credit{
+
+    Name = "GS_StarGamer",
+
+    Description = "Made the script, also made the theme",
+
+    V3rm = "https://v3rmillion.net/member.php?action=profile&uid=2560793",
+
+    Discord = "https://discord.gg/D4fKNGYcMN"
+
+}
+
+
+
+GUI:Credit{
+
+    Name = "x3Fall3nAngel",
+
+    Description = "Helped me",
+
+    V3rm = "https://v3rmillion.net/member.php?action=profile&uid=2270329",
+
+    Discord = "https://discord.gg/D4fKNGYcMN"
+
+}
+
+
+
+GUI:Notification{
+
+    Title = "Hey!",
+
+    Text = "Thank you for choosing Fallen Angel Hub, for more information click on the other tab, with FNOF logo",
+
+    Duration = 5,
+
+    Callback = function() 
+
+        game:IsLoaded()
+
+    end
+
+}
+
+
+
+local vu = game:GetService("VirtualUser")
+
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+
+   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+
+   wait(1)
+
+   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+
+end)
+
+
+
+GUI:Notification{
+
+	Title = "Notification",
+
+	Text = "Anti-AFK activated",
+
+	Duration = 3,
+
+	Callback = function() end
+
+}
+
+
+
+--Ghosts
+
+
+
+local Mainhubg = {
+
+        "Fairy",
+
+        "Owl",
+
+        "Businessman",
+
+        "Street Cat",
+
+        "Mechanic",
+
+        "Garbage Bin",
+
+        "Paper Bag Man",
+
+        "Rat",
+
+        "Pigeon",
+
+        "Bandit",
+
+        "Cowboy",
+
+        "Scientist",
+
+        "Zorg",
+
+        "Miner",
+
+        "Living Rock",
+
+        "Pharaoh",
+
+        "Mummy",
+
+        "Pirate",
+
+        "Parrot",
+
+        "Diver",
+
+        "Mermaid",
+
+        "Islander",
+
+        "Magma Monster",
+
+        "Explorer",
+
+        "Penguin"
+
+}
+
+
+
+local Ghostworldg = {
+
+        "Jester",
+
+        "Jelly",
+
+        "Pinwheel",
+
+        "Blue Ray",
+
+        "Spooky",
+
+        "Pixie",
+
+        "Rogue",
+
+        "Knight",
+
+        "Wizard",
+
+        "Horse",
+
+        "Bongo Man",
+
+        "Yellow Note",
+
+        "DJ",
+
+        "Purple Note",
+
+        "Viney",
+
+        "Blooming",
+
+        "Adventurer",
+
+        "Dragonfly"
+
+}
+
+
+
+local backdoorg = {
+
+    "Swamp Dweller",
+
+    "Firefly",
+
+    "Frost Spirit",
+
+    "Snowstorm",
+
+    "Flutter Spirit",
+
+    "Mushroom",
+
+    "Water Spirit",
+
+    "Glitcher",
+
+    "Error 404",
+
+    "Rock Crystal",
+
+    "Farmer",
+
+    "Crazy Cow",
+
+    "Parasite",
+
+    "Super Computer",
+
+    "Digital Bandit",
+
+    "Trojan Horse",
+
+    "Honeydrop",
+
+    "Bee",
+
+    "Web Surfer",
+
+    "Binary",
+
+    "Byte",
+
+    "Digi Cat",
+
+    "Guardian",
+
+    "Data Fury",
+
+    "Programmer",
+
+    "RAM"
+
+}
+
+
+
+
+
+
+
+--Bossesg
+
+local mainhubb = {
+
+    "Ghastly Tree",
+
+    "George The Gorilla",
+
+    "Sludge",
+
+    "Subject One",
+
+    "King Krab",
+
+    "Magmoraug"
+
+}
+
+
+
+local ghostworldb = {
+
+    "Grim",
+
+    "The Great Guardian"
+
+}
+
+
+
+local backdoorb = {
+
+    "Anomaly",
+
+    "The Final Boss"
+
+}
+
+
+
+--Locals
+
+local ghostN = nil
+
+local ghostN2 = nil
+
+
+
+local bossN = nil
+
+
+
+
+
+
+
+
+
+--maps
+
+local mainhub = 2685347741
+
+local ghostworld = 4078003854
+
+local backdoor = 4383092793
+
+local bloxbyte = 5061426732
+
+
+
+
+
+
+
+local Farm = GUI:Tab{
+
+    Name = "Farm",
+
+    Icon = "rbxassetid://8292007940"
+
+}
+
+
+
+local Quest = GUI:Tab{
+
+    Name = "Quest",
+
+    Icon = "rbxassetid://82426641"
+
+}
+
+
+
+local Bosses = GUI:Tab{
+
+    Name = "Bosses",
+
+    Icon = "rbxassetid://77095067"
+
+}
+
+
+
+local Other = GUI:Tab{
+
+    Name = "Other",
+
+    Icon = "rbxassetid://9047121552"
+
+}
+
+
+
+--farm
+
+if game.PlaceId == mainhub then
+
+    Farm:Dropdown{
+
+        Name = "Select the ghost you want to farm",
+
+        StartingText = "Select...",
+
+        Description = nil,
+
+        Items = Mainhubg,
+
+        Callback = function(v)
+
+            ghostN = v
+
+        end
+
+    }
+
+
+
+elseif game.PlaceId == ghostworld then
+
+Farm:Dropdown{
+
+    Name = "Select the ghost you want to farm",
+
+    StartingText = "Select...",
+
+    Description = nil,
+
+    Items = Ghostworldg,
+
+    Callback = function(v)
+
+        ghostN = v
+
+    end
+
+}
+
+elseif game.PlaceId == backdoor then
+
+    Farm:Dropdown{
+
+        Name = "Select the ghost you want to farm",
+
+        StartingText = "Select...",
+
+        Description = nil,
+
+        Items = backdoorg,
+
+        Callback = function(v)
+
+            ghostN = v
+
+        end
+
+    }
+
+end
+
+
+
+
+
+Farm:Toggle{
+
+    Name = "AutoFarm",
+
+    StartingState = false,
+
+    Description = nil,
+
+    Callback = function(state)
+
+        local GhostsFolder = game.Workspace.Ghosts
+
+        getgenv().autofarm = state
+
+        GUI:Notification{
+
+            Title = "Alert",
+
+            Text = "Please equip your vacuum in order to work",
+
+            Duration = 3,
+
+            Callback = function() end
+
+        }
+
+        spawn(function()
+
+            while autofarm == true do
+
+                for i, v in pairs(workspace.Ghosts:GetChildren()) do
+
+                    if v.Name == ghostN and v:FindFirstChild("HumanoidRootPart") and autofarm == true then
+
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0, 0, 5)
+
+                        local remote = game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy
+
+                        remote:FireServer(v)
+
+
+
+                    elseif ghostN == nil then
+
+                        GUI:Notification{
+
+                            Title = "ERROR",
+
+                            Text = "You have not selected a ghost yet.",
+
+                            Duration = 3,
+
+                            Callback = function() end
+
+                        }
+
+                        wait(3)
+
+                    end
+
+                end
+
+                task.wait()
+
+            end
+
+        end)
+
+    end
+
+}
+
+
+
+
+
+if game.PlaceId == mainhub then
+
+    Farm:Toggle{
+
+        Name = "Autosell",
+
+        StartingState = false,
+
+        Description = nil,
+
+        Callback = function(state) 
+
+            getgenv().autosell = state
+
+            spawn(function()
+
+                while getgenv().autosell == true do
+
+                    local player = game.Players.LocalPlayer
+
+                    local bLocation
+
+                    function teleport(loc)
+
+                        bLocation = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+
+                        if game.Players.LocalPlayer.Character.Humanoid.Sit then
+
+                            game.Players.LocalPlayer.Character.Humanoid.Sit = false
+
+                        end
+
+                        wait()
+
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = loc
+
+                    end
+
+                        teleport(CFrame.new(211, -148, -1710)) --  MAIN WORLD ----  CFrame.new(211, -148, -1710)  GHOST WORLD ---  CFrame.new(123, -862, 6040)   ---- VOID  CFrame.new(-2, 257, -154)
+
+                        wait(2)
+
+                        teleport(bLocation)
+
+                    wait(10)
+
+            end
+
+        end)
+
+    end}
+
+elseif game.PlaceId == ghostworld then
+
+    Farm:Toggle{
+
+        Name = "Autosell",
+
+        StartingState = false,
+
+        Description = nil,
+
+        Callback = function(state) 
+
+            getgenv().autosell = state
+
+            spawn(function()
+
+                while getgenv().autosell == true do
+
+                    local player = game.Players.LocalPlayer
+
+                    local bLocation
+
+                    function teleport(loc)
+
+                        bLocation = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+
+                        if game.Players.LocalPlayer.Character.Humanoid.Sit then
+
+                            game.Players.LocalPlayer.Character.Humanoid.Sit = false
+
+                        end
+
+                        wait()
+
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = loc
+
+                    end
+
+
+
+                        teleport(CFrame.new(123, -862, 6040)) --  MAIN WORLD ----  CFrame.new(211, -148, -1710)  GHOST WORLD ---  CFrame.new(123, -862, 6040)   ---- VOID  CFrame.new(-2, 257, -154)
+
+                        wait(2)
+
+                        teleport(bLocation)
+
+                    wait(10)
+
+            end
+
+        end)
+
+    end}
+
+elseif game.PlaceId == backdoor then
+
+    Farm:Toggle{
+
+        Name = "Autosell",
+
+        StartingState = false,
+
+        Description = nil,
+
+        Callback = function(state) 
+
+            getgenv().autosell = state
+
+            spawn(function()
+
+                while getgenv().autosell == true do
+
+                    local player = game.Players.LocalPlayer
+
+                    local bLocation
+
+                    function teleport(loc)
+
+                        bLocation = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+
+                        if game.Players.LocalPlayer.Character.Humanoid.Sit then
+
+                            game.Players.LocalPlayer.Character.Humanoid.Sit = false
+
+                        end
+
+                        wait()
+
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = loc
+
+                    end
+
+            
+
+                        teleport(CFrame.new(99.1463547, 278.861572, -744.693115, -0.945054948, 1.84763416e-09, -0.326911479, 3.85483538e-08, 1, -1.05786064e-07, 0.326911479, -1.12575549e-07, -0.945054948)) --  MAIN WORLD ----  CFrame.new(211, -148, -1710)  GHOST WORLD ---  CFrame.new(123, -862, 6040)   ---- VOID  CFrame.new(-2, 257, -154)
+
+                        wait(2)
+
+                        teleport(bLocation)
+
+                    wait(10)
+
+            end
+
+        end)
+
+    end}    
+
+end
+
+
+
+Farm:Toggle{
+
+    Name = "Auto hit",
+
+    StartingState = false,
+
+    Description = nil,
+
+    Callback = function(state) 
+
+        getgenv().autohit = state
+
+        spawn(function ()
+
+            while autohit == true do
+
+                    local args = {
+
+                        [1] = workspace.Ghosts:FindFirstChild(ghostN)
+
+                    }                                    
+
+                    game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumFireHit:FireServer(unpack(args))
+
+                    task.wait() 
+
+                end
+
+            end)
+
+        end}
+
+
+
+Farm:Toggle{
+
+    Name = "Auto Antenna upgrade",
+
+    StartingState = true,
+
+    Description = nil,
+
+    Callback = function(state) 
+
+        getgenv().autoantenna = state
+
+        spawn(function ()
+
+            while autoantenna == true do
+
+                game:GetService("ReplicatedStorage").Network.ToServer.Requests.UpgradeAntenna:FireServer()
+
+                task.wait()
+
+            end 
+
+        end)
+
+    end
+
+}
+
+
+
+
+
+--quest
+
+Quest:Toggle{
+
+    Name = "Auto start quests",
+
+    StartingState = true,
+
+    Description = nil,
+
+    Callback = function(state)
+
+    getgenv().autostartquest = state
+
+        spawn(function ()
+
+            while autostartquest == true do
+
+                for i = 1, 500 do
+
+                    local args = {
+
+                        [1] = i
+
+                    }
+
+                    
+
+                    game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartQuest:FireServer(unpack(args))
+
+                    task.wait()
+
+                end
+
+            end
+
+        end)
+
+    end
+
+}
+
+
+
+Quest:Toggle{
+
+    Name = "Auto Claim Quest",
+
+    StartingState = true,
+
+    Description = nil,
+
+    Callback = function(state)
+
+    getgenv().autoclaimquest = state
+
+        spawn(function ()
+
+            while autoclaimquest == true do
+
+                for i = 1, 500 do
+
+                    local args = {
+
+                        [1] = i
+
+                    }
+
+                    
+
+                    game:GetService("ReplicatedStorage").Network.ToServer.Requests.AdvanceQuest:FireServer(unpack(args))
+
+                    task.wait()
+
+                end
+
+            end
+
+        end)
+
+    end
+
+}
+
+
+
+--bosses
+
+if game.PlaceId == mainhub then
+
+    Bosses:Dropdown{
+
+        Name = "Select boss",
+
+        StartingText = "Select...",
+
+        Description = nil,
+
+        Items = mainhubb,
+
+        Callback = function(v)
+
+            bossN = v
+
+        end
+
+    }
+
+elseif game.PlaceId == ghostworld then
+
+    Bosses:Dropdown{
+
+        Name = "Select boss",
+
+        StartingText = "Select...",
+
+        Description = nil,
+
+        Items = ghostworldb,
+
+        Callback = function(v)
+
+            bossN = v
+
+        end
+
+    }
+
+elseif game.PlaceId == backdoor then
+
+    Bosses:Dropdown{
+
+        Name = "Select boss",
+
+        StartingText = "Select...",
+
+        Description = nil,
+
+        Items = backdoorb,
+
+        Callback = function(v)
+
+            bossN = v
+
+        end
+
+    }
+
+end
+
+
+
+Bosses:Toggle{
+
+    Name = "Bossfarm",
+
+    StartingState = false,
+
+    Description = nil,
+
+    Callback = function(state)
+
+        local GhostsFolder = game.Workspace.Ghosts
+
+        getgenv().bossfarm = state
+
+        GUI:Notification{
+
+            Title = "Alert",
+
+            Text = "If you are not tp'ing then the boss is not spawned yet, or dm me.",
+
+            Duration = 3,
+
+            Callback = function() end
+
+        }
+
+        spawn(function()
+
+            while bossfarm == true do
+
+                for i, v in pairs(workspace.Ghosts:GetChildren()) do
+
+                    if v.Name == bossN and v:FindFirstChild("HumanoidRootPart") and bossfarm == true then
+
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0, 0, 10)
+
+                        local remote = game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy
+
+                        remote:FireServer(v)
+
+
+
+                    elseif bossN == nil then
+
+                        GUI:Notification{
+
+                            Title = "ERROR",
+
+                            Text = "You have not selected the yet yet.",
+
+                            Duration = 3,
+
+                            Callback = function() end
+
+                        }
+
+                        wait(3)
+
+                    end
+
+                end
+
+                task.wait()
+
+            end
+
+        end)
+
+    end
+
+}
+
+
+
+Bosses:Toggle{
+
+    Name = "Auto Hit boss",
+
+    StartingState = false,
+
+    Description = nil,
+
+    Callback = function(state) 
+
+        getgenv().autohitboss = state
+
+        GUI:Notification{
+
+            Title = "Alert",
+
+            Text = "Use this featuer only with bosses with shield",
+
+            Duration = 3,
+
+            Callback = function() end
+
+        }
+
+        spawn(function ()
+
+            while autohitboss == true do
+
+                    local args = {
+
+                        [1] = workspace.Ghosts:FindFirstChild(bossN)
+
+                    }                                    
+
+                    game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumFireHit:FireServer(unpack(args))
+
+                    task.wait() 
+
+                end
+
+            end)
+
+        end}
+
+
+
+
+
+
+
+
+
+--other
+
+Other:Button{
+
+    Name = "Print Ghosts in your area",
+
+    Description = nil,
+
+    Callback = function() 
+
+        for i, v in pairs(game.Workspace.Ghosts:GetChildren()) do
+
+            print(v.Name)
+
+        end
+
+            GUI:Notification{
+
+                Title = "Alert",
+
+                Text = "Open console to see all ghosts in your area. press F9",
+
+                Duration = 3,
+
+                Callback = function() end
+
+            }
+
+    end
+
+}
+
+
+
+--MAIN WORLD ----  CFrame.new(211, -148, -1710)  GHOST WORLD ---  CFrame.new(123, -862, 6040)   ---- VOID  CFrame.new(-2, 257, -154)
+
+local mainhubs = "211, -148, -1710"
+
+local ghostworlds = "123, -862, 6040"
+
+local backdoors = "99.1463547, 278.861572, -744.693115, -0.945054948, 1.84763416e-09, -0.326911479, 3.85483538e-08, 1, -1.05786064e-07, 0.326911479, -1.12575549e-07, -0.945054948"
+
+
+
+if game.PlaceId == mainhub then
+
+Other:Keybind{
+
+    Name = "Quick sell keybind",
+
+    Keybind = r,
+
+    Description = "quick sell",
+
+    Callback = function ()
+
+        GUI:Notification{
+
+            Title = "Alert",
+
+            Text = "Teleporting...",
+
+            Duration = 0.5,
+
+            Callback = function() end
+
+        }
+
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(211, -148, -1710)
+
+    end
+
+}
+
+
+
+elseif game.PlaceId == ghostworld then
+
+    Other:Keybind{
+
+        Name = "Quick sell keybind",
+
+        Keybind = r,
+
+        Description = "quick sell",
+
+        Callback = function ()
+
+        GUI:Notification{
+
+            Title = "Alert",
+
+            Text = "Teleporting...",
+
+            Duration = 0.5,
+
+            Callback = function() end
+
+        }
+
+
+
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(123, -862, 6040)
+
+        end}
+
+elseif game.PlaceId == backdoor then
+
+    Other:Keybind{
+
+        Name = "Quick sell keybind",
+
+        Keybind = r,
+
+        Description = "quick sell",
+
+        Callback = function ()
+
+            GUI:Notification{
+
+                Title = "Alert",
+
+                Text = "Teleporting...",
+
+                Duration = 0.5,
+
+                Callback = function() end
+
+            }
+
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(99.1463547, 278.861572, -744.693115, -0.945054948, 1.84763416e-09, -0.326911479, 3.85483538e-08, 1, -1.05786064e-07, 0.326911479, -1.12575549e-07, -0.945054948)
+
+        end}
+
+end
+
+
+
+if game.PlaceId == mainhub then
+
+    Other:Button{
+
+        Name = "Serverhop",
+
+        Description = "Serverhop in the same world",
+
+        Callback = function() 
+
+            local Servers = game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/2685347741/servers/Public?sortOrder=Asc&limit=100"))
+
+for i,v in pairs(Servers.data) do
+
+  if v.playing ~= v.maxPlayers then
+
+        game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, v.id)
+
+  end
+
+        end
+
+end}
+
+
+
+
+
+elseif game.PlaceId == ghostworld then
+
+    Other:Button{
+
+        Name = "Serverhop",
+
+        Description = "Serverhop in the same world",
+
+        Callback = function() 
+
+            local Servers = game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/4078003854/servers/Public?sortOrder=Asc&limit=100"))
+
+    for i,v in pairs(Servers.data) do
+
+        if v.playing ~= v.maxPlayers then
+
+        game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, v.id)
+
+    end
+
+        end
+
+end}
+
+
+
+
+
+elseif game.PlaceId == backdoor then
+
+    Other:Button{
+
+        Name = "Serverhop",
+
+        Description = "Serverhop in the same world",
+
+        Callback = function() 
+
+            local Servers = game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/4383092793/servers/Public?sortOrder=Asc&limit=100"))
+
+for i,v in pairs(Servers.data) do
+
+    if v.playing ~= v.maxPlayers then
+
+        game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, v.id)
+
+        end
+
+        end
+
+    end}
+
+end
+
+
+
+Other:Credit{
+
+	Name = "Join discord?",
+
+	Description = "Click on the discord logo to copy our server invite. ---------------------------------------->",
+
+	V3rm = nil,
+
+	Discord = "https://discord.gg/D4fKNGYcMN"
+
+}
+
+
+
+-- local mainhub = 2685347741
+
+-- local ghostworld = 4078003854
+
+-- local backdoor = 4383092793
+end)
+
