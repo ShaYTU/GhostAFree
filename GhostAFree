@@ -48,6 +48,9 @@ end)
 b:Button("Jetpack",function()
     game.Players.LocalPlayer.Stats.JetpackUnlocked.Value = true
 end)
+b:Button("Multistream",function()
+    game.Players.LocalPlayer.Stats.MultistreamUnlocked.Value = true
+end)
 
 b:Button("All Upgrades",function()
     game.Players.LocalPlayer.Stats.AcceleratorUnlocked.Value = true
@@ -60,6 +63,7 @@ game.Players.LocalPlayer.Stats.VacuumFiringUnlocked.Value = true
 game.Players.LocalPlayer.Stats.ParachuteUnlocked.Value = true
 game.Players.LocalPlayer.Stats.OverchargeUnlocked.Value = true
 game.Players.LocalPlayer.Stats.JetpackUnlocked.Value = true
+game.Players.LocalPlayer.Stats.MultistreamUnlocked.Value = true
 
 end)
 
