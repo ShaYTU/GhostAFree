@@ -273,7 +273,6 @@ d:Label("Fallen Angel Hub ",{
 
 c:Button("Grinder GUI",function()
 
-
 --Public
 
 repeat task.wait() until game:IsLoaded()
