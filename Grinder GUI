@@ -314,6 +314,16 @@ local backdoorb = {
     "The Final Boss"
 
 }
+local backdoorb = {
+
+    "Pillar",
+    
+    "Void Eye",
+    
+    "Final Boss"
+
+
+}
 
 
 local voidb = {
@@ -454,6 +464,26 @@ elseif game.PlaceId == backdoor then
         Description = nil,
 
         Items = backdoorg,
+
+        Callback = function(v)
+
+            ghostN = v
+
+        end
+
+    }
+    
+elseif game.PlaceId == bloxbyte then
+
+    Farm:Dropdown{
+
+        Name = "Select the ghost you want to farm",
+
+        StartingText = "Select...",
+
+        Description = nil,
+
+        Items = bloxbyteg,
 
         Callback = function(v)
 
@@ -936,6 +966,25 @@ elseif game.PlaceId == backdoor then
         Description = nil,
 
         Items = backdoorb,
+
+        Callback = function(v)
+
+            bossN = v
+
+        end
+
+    }
+    elseif game.PlaceId == bloxbyte then
+
+    Bosses:Dropdown{
+
+        Name = "Select boss",
+
+        StartingText = "Select...",
+
+        Description = nil,
+
+        Items = bloxbyteb,
 
         Callback = function(v)
 
