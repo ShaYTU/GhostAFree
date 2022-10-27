@@ -273,6 +273,7 @@ d:Label("Fallen Angel Hub ",{
 
 c:Button("Grinder GUI",function()
 
+
 --Public
 
 repeat task.wait() until game:IsLoaded()
@@ -535,9 +536,19 @@ local backdoorg = {
 
 }
 
+local voidg = {
 
+ "Petal",
+ 
+ "Heated",
+ 
+ "Slime",
+ 
+ "Storm",
+ 
+ "Tech"
 
-
+}
 
 
 
@@ -580,6 +591,12 @@ local backdoorb = {
 }
 
 
+local voidb = {
+
+    "Boss Bo"
+
+}
+
 
 --Locals
 
@@ -608,6 +625,8 @@ local ghostworld = 4078003854
 local backdoor = 4383092793
 
 local bloxbyte = 5061426732
+
+local void = 6036368776
 
 
 
@@ -719,7 +738,29 @@ elseif game.PlaceId == backdoor then
 
     }
 
+
+elseif game.PlaceId == void then
+
+    Farm:Dropdown{
+
+        Name = "Select the ghost you want to farm",
+
+        StartingText = "Select...",
+
+        Description = nil,
+
+        Items = voidg,
+
+        Callback = function(v)
+
+            ghostN = v
+
+        end
+
+    }
+
 end
+
 
 
 
@@ -1179,6 +1220,25 @@ elseif game.PlaceId == backdoor then
 
     }
 
+elseif game.PlaceId == void then
+
+    Bosses:Dropdown{
+
+        Name = "Select boss",
+
+        StartingText = "Select...",
+
+        Description = nil,
+
+        Items = voidb,
+
+        Callback = function(v)
+
+            bossN = v
+
+        end
+
+    }
 end
 
 
@@ -1550,5 +1610,3 @@ Other:Credit{
 -- local ghostworld = 4078003854
 
 -- local backdoor = 4383092793
-end)
-
