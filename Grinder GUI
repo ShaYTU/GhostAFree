@@ -1277,7 +1277,36 @@ elseif game.PlaceId == backdoor then
 
         end}
 
-end
+	elseif game.PlaceId == void then
+
+		Other:Keybind{
+	
+			Name = "Quick sell keybind",
+	
+			Keybind = r,
+	
+			Description = "quick sell",
+	
+			Callback = function ()
+	
+				GUI:Notification{
+	
+					Title = "Alert",
+	
+					Text = "Teleporting...",
+	
+					Duration = 0.5,
+	
+					Callback = function() end
+	
+				}
+	
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2, 257, -154)
+	
+			end}
+	
+	end
+	
 
 
 
