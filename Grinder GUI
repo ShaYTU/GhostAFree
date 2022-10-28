@@ -291,7 +291,9 @@ local mainhubb = {
 
     "King Krab",
 
-    "Magmoraug"
+    "Magmoraug",
+
+	"Dino King"
 
 }
 
@@ -300,6 +302,8 @@ local mainhubb = {
 local ghostworldb = {
 
     "Grim",
+
+	"Jolly Roger",
 
     "The Great Guardian"
 
@@ -311,7 +315,7 @@ local backdoorb = {
 
     "Anomaly",
 
-    "The Final Boss"
+	"Anonymous"
 
 }
 local backdoorb = {
